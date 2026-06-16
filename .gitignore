@@ -1,0 +1,26 @@
+# Ignore everything except the top-level files and folders shown in ignore.png
+/*
+
+# Keep repository metadata and top-level files
+!/.gitignore
+!/.pre-commit-config.yaml
+!/LICENSE
+!/README.md
+!/pyproject.toml
+!/setup.py
+
+# Keep the top-level folders from the screenshot
+!/.github/
+!/.github/**
+!/config/
+!/config/**
+!/docker/
+!/docker/**
+!/docs/
+!/docs/**
+!/scripts/
+!/scripts/**
+!/test/
+!/test/**
+!/vlfm/
+!/vlfm/**
